@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+width: 100vw;
+height: 100vh;
+position: relative;
+}
+.head,.left,.body,.right,.footer{
+    position: absolute;
+}
+.head{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    background: #abf;
+    padding: 20px;
+    text-align: center;
+
+}
+.left{
+    top: 10%;
+    left: 0%;
+    width: 10%;
+    height: 80%;
+    background: #fba;
+}
+.body{
+    top: 10%;
+    left: 10%;
+    width: 70%;
+    height: 80%;
+    background: whitesmoke;
+}
+
+ .right{
+    top: 10%;
+    right: 0;
+    width: 45%;
+    height: 80%;
+    background: #fba;
+
+}
+.footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #abf;
+    height: 10%;
+    padding: 20px;
+    text-align: center;
+    
+}
+.demo{
+    width: 61%;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+
+.fa {  
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+    border-radius: 50%;
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+    border-radius: 50%;
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+    border-radius: 50%;
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white; 
+    border-radius: 50%; 
+  }  
+  .fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+    border-radius: 50%;
+  }  
+  .fa-google {  
+    background: #dd4b39;  
+    color: white;  
+    border-radius: 50%;
+  }
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
+
+
+  /* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
